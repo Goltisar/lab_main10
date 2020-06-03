@@ -6,10 +6,10 @@ using namespace std;
 
 int main()
 {
-    unsigned int size2D = 2;
-    unsigned int size3D = 3;
-    Matrix2D m2a(size2D), m2b(size2D);
-    Matrix3D m3a(size3D), m3b(size3D);
+    Matrix2D m2a = Matrix2D();
+    Matrix2D m2b = Matrix2D();
+    Matrix3D m3a = Matrix3D();
+    Matrix3D m3b = Matrix3D();
     cout << "m2a: " << endl << m2a << endl;
     cout << "m2b: " << endl << m2b << endl;
     m2a += m2b;
